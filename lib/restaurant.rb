@@ -3,7 +3,7 @@ require_relative('restaurant_file')
 class Restaurant
   
   attr_accessor :name, :cuisine, :price
-  
+
   @@file = nil
   def self.file
     @@file
