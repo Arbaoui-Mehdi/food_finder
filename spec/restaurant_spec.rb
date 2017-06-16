@@ -1,5 +1,5 @@
 require 'restaurant'
-require 'awesome_print'
+
 describe Restaurant do
 
   let(:test_file) { 'spec/fixtures/restaurants_test.txt' }
